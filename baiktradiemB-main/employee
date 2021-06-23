@@ -1,0 +1,12 @@
+gói  Cuối cùng ;
+
+nhập  java.io.IOException ;
+
+ Nhân viên hạng  công khai {
+	public  void  work () ném  IOException {
+
+	}
+	public  void  work ( String  location ) ném  NullPointerException {
+
+	}
+}

@@ -1,0 +1,27 @@
+gói  Cuối cùng ;
+
+ lớp  công khai ThrowAndThrows {
+
+	public  static  void  main ( String [] args ) {
+		ThrowAndThrows tat =  new  ThrowAndThrows ();
+		thử {
+			tat . kiểm tra trạng thái();
+			tat . connectDatabase ();
+		} catch ( EducationException e) {
+			// VIỆC CẦN LÀM Khối bắt được tạo tự động
+			e . printStackTrace ();
+		} catch ( Ngoại lệ e) {
+			// VIỆC CẦN LÀM Khối bắt được tạo tự động
+			e . printStackTrace ();
+		}
+
+	}
+	public  void  connectDatabase () ném  Exception {
+		// Kết nối với cơ sở dữ liệu
+		ném  Exception mới  ();
+	}
+	public  void  checkStatus () ném  EducationException {
+		// Kiểm tra trạng thái
+		ném  mới  EducationException ( " Hết chỗ " );
+	}
+}

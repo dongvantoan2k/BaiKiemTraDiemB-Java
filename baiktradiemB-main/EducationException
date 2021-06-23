@@ -1,0 +1,10 @@
+gói  Cuối cùng ;
+
+public  class  EducationException  mở rộng  Exception {
+	public  EducationException () {
+
+	}
+	public  EducationException ( Thông báo chuỗi  ) {
+		siêu (tin nhắn);
+	}
+}

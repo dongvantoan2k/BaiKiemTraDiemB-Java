@@ -1,0 +1,14 @@
+gói  Cuối cùng ;
+
+nhập  java.io.FileNotFoundException ;
+
+public  class  Nhà phát triển  mở rộng  nhân viên {
+	@Ghi đè
+	public  void  work () ném  FileNotFoundException {
+
+	}
+	@Ghi đè
+	public  void  work ( String  location ) ném  ArithmeticException {
+
+	}
+}	

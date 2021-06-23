@@ -1,0 +1,24 @@
+gói  Cuối cùng ;
+
+
+
+public  class  UncheckedExceptionSample {
+	public  static  void  main ( String [] args ) {
+		int a =  6 ;
+		int b =  3 ;
+		nếu (b ! =  0 ) {
+			Hệ thống . ra ngoài . println (a / b);
+		}
+		UncheckedExceptionSample ues =  new  UncheckedExceptionSample ();
+		ues . kiểm tra ( null );
+		Hệ thống . ra ngoài . println ( " sau khi ngoại lệ " );
+	}
+	 kiểm tra khoảng trống  công khai ( Tên chuỗi ) { 
+		thử {
+			Hệ thống . ra ngoài . println (tên . toUpperCase ());
+
+		} cuối cùng {
+			Hệ thống . ra ngoài . println ( " Luôn được Thực thi " );
+		}
+	}
+}
